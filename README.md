@@ -11,7 +11,7 @@ Build and run a Bitcoin core full node in a Docker container
 
 ## Run
 
-    docker run --name bitcoin -v /lots/of/space:/bitcoin[:z] -v ./config/fullnode.conf:/root/.bitcoin/bitcoin.conf[:z] bitcoin
+    docker run --name bitcoin [-d] -v /lots/of/space:/bitcoin[:z] -v ./config/fullnode.conf:/root/.bitcoin/bitcoin.conf[:z] bitcoin
 
 ## Use bitcoin-cli
 
