@@ -22,5 +22,4 @@ RUN ./autogen.sh \
 
 RUN make check && make install
 
-ENTRYPOINT [ "bitcoind", "-conf=/root/.bitcoin/bitcoin.conf", "-printtoconsole" ]
-CMD [ ]
+CMD [ "bitcoind", "-conf=/root/.bitcoin/bitcoin.conf", "-printtoconsole" ]
