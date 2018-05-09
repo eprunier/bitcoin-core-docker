@@ -21,3 +21,7 @@ The bitcoin container must be started.
     docker exec -it bitcoin bitcoin-cli getmempoolinfo
     docker exec -it bitcoin bitcoin-cli getnetworkinfo
     docker exec -it bitcoin bitcoin-cli getwalletinfo
+
+## Links
+
+[Unix build notes](https://github.com/bitcoin/bitcoin/blob/master/doc/build-unix.md)
