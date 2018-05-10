@@ -20,6 +20,6 @@ RUN ./autogen.sh \
   && ./configure \
   && make -j ${cc_cores}
 
-RUN make check && make install
+RUN make check && make install && make clean
 
 CMD [ "bitcoind", "-conf=/root/.bitcoin/bitcoin.conf", "-printtoconsole" ]
